@@ -1,0 +1,9 @@
+package com.company;
+import java.util.Scanner;
+import static java.lang.Math.*;
+public class Dog extends Animal
+{
+    public String makeSound()
+    {
+        return "witaj przeklety color " + getColor()  "name" + getName() ;
+    }
