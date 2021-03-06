@@ -1,0 +1,9 @@
+package com.company;
+import java.util.Scanner;
+import static java.lang.Math.*;
+public class cat extends Animal
+{
+    public String makeSound()
+    {
+        return "jestem kotem miau color " + getColor()  "name" + getName() ;
+    }
