@@ -1,0 +1,31 @@
+package com.company;
+import java.util.Scanner;
+import static java.lang.Math.*;
+public class animal {
+
+
+    {
+        private String color;
+        private String name;
+
+        public void setcolor (String color)
+        {
+            this.color = color;
+        }
+
+        public void setname (String name)
+        {
+            this.name = name;
+        }
+
+        public String getName ()
+        {
+            return name;
+        }
+
+        public String getColor ()
+        {
+            return color;
+        }
+    }
+}
