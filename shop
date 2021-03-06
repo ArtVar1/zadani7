@@ -1,0 +1,27 @@
+package com.company;
+import java.util.Scanner;
+import static java.lang.Math.*;
+public class shop {
+    private String addres;
+    private String size;
+
+    public String getinformation() {
+        return "rozmiar" + size + "adres" + addres;
+    }
+
+    public Shop(String addres, String size) {
+        this.addres = addres;
+        this.size = size;
+
+
+        public String getSize ()
+        {
+            return size;
+        }
+
+        public String getAddres ()
+        {
+            return addres;
+        }
+    }
+}
